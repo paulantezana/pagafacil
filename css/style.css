@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700,500,300);
+* {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #F6F6F6;
+  color: #064280;
+  margin: 0;
+  font-size: 0.9rem; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/*:::::::::::::::::::::::::::::  End :::::::::::::::::::::::::::
+========================= jhoelantezana.com ========================
+-------------------------------------------------------------------*/
+.header--nav {
+  background: #064280;
+  color: #ffdc33; }
+  .header--nav .nav {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
+  .header--nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.75rem; }
+  .header--nav a {
+    display: block;
+    line-height: 2.5rem; }
+    .header--nav a:hover {
+      color: #F6F6F6;
+      background: #04294f; }
+
+#mostrarMenuMovil {
+  line-height: 2.5rem;
+  background: #053568;
+  padding: 0 0.5rem;
+  cursor: pointer; }
+  #mostrarMenuMovil:active {
+    background: #06478a; }
+  @media screen and (min-width: 760px) {
+    #mostrarMenuMovil {
+      display: none; } }
+
+.nav .menu {
+  background: #064280;
+  transition: all 0.4s; }
+  @media screen and (max-width: 760px) {
+    .nav .menu {
+      position: absolute;
+      z-index: 200;
+      width: 100%;
+      left: -100%; } }
+  @media screen and (min-width: 760px) {
+    .nav .menu {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+  .nav .menu__link {
+    padding-left: 0.7rem; }
+    @media screen and (min-width: 760px) {
+      .nav .menu__link {
+        padding: 0 0.7rem; } }
+  @media screen and (min-width: 760px) {
+    .nav .menu__item:hover .subMenu {
+      max-height: 200px; } }
+
+.nav {
+  position: relative; }
+  .nav .subMenu {
+    overflow: hidden;
+    max-height: 0; }
+    .nav .subMenu__link {
+      padding-left: 1.5rem;
+      background: #053363; }
+    @media screen and (min-width: 760px) {
+      .nav .subMenu {
+        position: absolute;
+        z-index: 190;
+        top: 2.5rem;
+        width: 350px;
+        background: url("../img/png/finanzas.png") 190px 15px/25% no-repeat, url("../img/png/servicios.png") right 50px/25% no-repeat, #FFD300;
+        color: #064280; }
+        .nav .subMenu__link {
+          background: none; }
+          .nav .subMenu__link:hover {
+            color: #064280;
+            background: linear-gradient(90deg, #ffe04d 40%, transparent 65%); } }
+
+.header--item {
+  background: #FFD300; }
+
+.socialHeader {
+  height: 70px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media screen and (min-width: 760px) {
+    .socialHeader {
+      height: 120px; } }
+
+.social__logo {
+  width: 130px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .social__logo img {
+    width: 130px; }
+
+.social__redes {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  width: 150px;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+body {
+  min-height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+footer {
+  margin-top: auto; }
+
+main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media screen and (max-width: 760px) {
+    main {
+      padding: 0 0.5rem; } }
+
+footer {
+  background: #064280;
+  font-weight: 300;
+  font-size: 0.7rem; }
+
+.footer--container {
+  position: relative;
+  color: #c3c3c3;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .footer--container .f-list {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0.3rem; }
+    .footer--container .f-list__item {
+      margin: 0 0.2rem;
+      border-left: 1px solid #053568;
+      padding: 0 0.5rem; }
+
+.jhoelantezana {
+  margin: 0;
+  color: #0b74e1;
+  position: absolute;
+  bottom: 0rem;
+  right: 0.3rem;
+  font-size: 0.6rem; }
+  @media screen and (max-width: 760px) {
+    .jhoelantezana {
+      position: relative;
+      text-align: center; } }
+
+.titlePag {
+  border-bottom: 2px solid #FFD300;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.5rem; }
+
+.btn {
+  display: block;
+  background: #064280;
+  color: #F6F6F6;
+  line-height: 2.5rem;
+  text-align: center;
+  margin: 1rem; }
+  .btn:hover {
+    background: #074f98; }
+  .btn:active {
+    background: #0854a2; }
+
+.encuentraAqui {
+  background: #e9e9e9;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto; }
+  @media screen and (max-width: 760px) {
+    .encuentraAqui {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+  @media screen and (min-width: 760px) {
+    .encuentraAqui {
+      margin: 1rem;
+      width: 200px;
+      height: 210px; } }
+  .encuentraAqui [class*="icon-"]:before {
+    font-size: 5rem;
+    position: relative; }
+    @media screen and (max-width: 760px) {
+      .encuentraAqui [class*="icon-"]:before {
+        top: 0.2rem;
+        margin: 0.8rem; } }
+    @media screen and (min-width: 760px) {
+      .encuentraAqui [class*="icon-"]:before {
+        text-align: center;
+        display: block; } }
+  .encuentraAqui__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; }
+    @media screen and (min-width: 760px) {
+      .encuentraAqui__title {
+        text-align: center; } }
+  .encuentraAqui span {
+    display: block;
+    font-weight: 400;
+    font-size: 1.2rem; }

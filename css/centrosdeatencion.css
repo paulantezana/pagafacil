@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700,500,300);
+/*:::::::::::::::::::::::::::::  End :::::::::::::::::::::::::::
+========================= jhoelantezana.com ========================
+-------------------------------------------------------------------*/
+@media screen and (min-width: 760px) {
+  main {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .titlePag {
+    width: 100%; }
+  .map {
+    -webkit-flex: 0 0 350px;
+        -ms-flex: 0 0 350px;
+            flex: 0 0 350px; }
+  .centros {
+    -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    margin: 1rem 1rem 0 0; } }
+
+.filter {
+  background: #dddddd;
+  padding: 0.8rem;
+  text-transform: uppercase; }
+  .filter label {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 0; }
+  .filter__btn, .filter__select {
+    color: #064280;
+    height: 1.6rem;
+    border: 1px solid rgba(6, 66, 128, 0.6);
+    text-transform: uppercase; }
+  .filter__select {
+    width: 200px; }
+    @media screen and (min-width: 760px) {
+      .filter__select {
+        margin: 0 1rem; } }
+    @media screen and (max-width: 480px) {
+      .filter__select {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0; } }
+  .filter__btn {
+    background: #064280;
+    color: #F6F6F6;
+    width: 90px;
+    font-size: 0.8rem;
+    font-weight: 100; }
+
+.centros [class*="icon-"]:before,
+.map [class*="icon-"]:before {
+  position: relative;
+  top: 0.2rem; }
+
+.centros__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #064280; }
+
+.centros__item {
+  border-top: 1px solid #064280; }
+
+.centros__direccion {
+  font-weight: 400;
+  font-size: 1rem; }
+  .centros__direccion:before {
+    margin-right: 0.5rem; }
+
+.centros__siudad {
+  margin: 0 1.5rem; }
+
+.centros__buscar {
+  background: #FFD300;
+  width: 7.5rem;
+  text-align: center;
+  line-height: 2rem;
+  cursor: pointer;
+  margin-left: auto;
+  margin-bottom: 0.5rem; }
+  .centros__buscar:before {
+    position: relative;
+    top: 0.2rem;
+    margin-right: 0.2rem; }
+
+.map {
+  margin: 1rem 0;
+  max-width: 400px; }
+  .map__content {
+    height: 470px;
+    border: 1px solid #FFD300;
+    background: #fff; }
+    .map__content iframe {
+      width: 100%;
+      height: 100%; }
+  .map__horarioAtencion {
+    background: #FFD300;
+    padding: 0.5rem; }
+    .map__horarioAtencion__title {
+      margin: 0;
+      font-weight: 400; }
+      .map__horarioAtencion__title:before {
+        margin-right: 0.3rem; }

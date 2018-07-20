@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700,500,300);
+/*:::::::::::::::::::::::::::::  End :::::::::::::::::::::::::::
+========================= jhoelantezana.com ========================
+-------------------------------------------------------------------*/
+@media screen and (min-width: 760px) {
+  .container-destacados {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
+.sliderParent {
+  height: 300px;
+  background: #FFD300;
+  margin: 1rem 0; }
+
+.destacados {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .destacados__item {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    background: #e9e9e9;
+    transition: all 0.4s; }
+    .destacados__item:hover {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+      box-shadow: 1px 3px 2px rgba(91, 91, 91, 0.3); }
+    @media screen and (min-width: 760px) {
+      .destacados__item {
+        margin: 1rem;
+        width: 200px;
+        height: 210px; } }
+    @media screen and (max-width: 760px) {
+      .destacados__item {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+  .destacados__title {
+    font-size: 1.5rem;
+    font-weight: 500; }
+    @media screen and (min-width: 760px) {
+      .destacados__title {
+        text-align: center; } }
+    @media screen and (max-width: 760px) {
+      .destacados__title {
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+        margin-left: 1rem; } }
+    .destacados__title span {
+      display: block;
+      font-weight: 400;
+      font-size: 1.2rem; }
+
+.destacados [class*="icon-"]:before {
+  font-size: 5rem;
+  position: relative; }
+  @media screen and (max-width: 760px) {
+    .destacados [class*="icon-"]:before {
+      top: 0.15rem;
+      margin: 0.8rem; } }
+  @media screen and (min-width: 760px) {
+    .destacados [class*="icon-"]:before {
+      text-align: center;
+      display: block; } }
+
+.socios {
+  margin: 1rem 0;
+  border-top: 1px solid #064280;
+  border-bottom: 1px solid #064280; }
+  .socios__title {
+    background: #064280;
+    color: #ffe566;
+    margin: 0;
+    padding: 0 0.7rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.3rem; }
+  .socios__link {
+    font-size: 0.6rem;
+    font-weight: 300;
+    margin-left: 0.5rem; }
+  .socios__item {
+    overflow: hidden; }
+    .socios__item button {
+      display: none !important; }

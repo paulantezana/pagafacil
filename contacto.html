@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Pagafacil :: operaciones Financieras</title>
+    <meta name="description" content="Hacemos que tus operaciones sean más rápidas cómodas y seguras"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="font/font.css"/>
+    <link rel="stylesheet" href="css/contacto.css"/>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="slider/slick.css"/>
+    <script src="slider/slick.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header--item">
+        <div class="socialHeader">
+          <div class="social__logo"><a href="/"><img src="img/logo.jpg" alt="logo"/></a></div>
+          <div class="social__redes"><a href="https://www.facebook.com/" target="_blanck" class="icon-facebook"></a><a href="https://www.youtube.com/" target="_blanck" class="icon-youtube"></a><a href="https://twitter.com/" target="_blanck" class="icon-twitter"></a></div>
+        </div>
+      </div>
+      <div class="header--nav">
+        <nav class="nav">
+          <div id="mostrarMenuMovil">menu princiapal</div>
+          <ul id="menu" class="menu">
+            <li class="menu__item"><a href="/" class="menu__link">inicio</a></li>
+            <li class="menu__item"><a href="#" id="resJS" class="menu__link">acerca de pagafácil</a>
+              <ul id="hideJS" class="subMenu">
+                <li class="subMenu__item"><a href="queespagafacil.html" class="subMenu__link">que es pagafácil</a></li>
+                <li class="subMenu__item"><a href="porquepagafacil.html" class="subMenu__link">porque pagafácil</a></li>
+                <li class="subMenu__item"><a href="#" class="subMenu__link">sé un agente pagafácil</a></li>
+              </ul>
+            </li>
+            <li class="menu__item"><a href="servicios.html" class="menu__link">nuestros servicios</a></li>
+            <li class="menu__item"><a href="centrosdeatencion.html" class="menu__link">centros de atención</a></li>
+            <li class="menu__item"><a href="contacto.html" class="menu__link"> contáctenos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="mainParent">
+      <main>
+        <h1 class="titlePag">Centrosde Atención</h1>
+        <section class="contacto">
+          <div class="contacto__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62065.4527046694!2d-71.93924905!3d-13.5300193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1453832461495" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+          <div class="contacto__contactos">
+            <h2 class="titlePag contacto__contactos__title">Contactos</h2>
+            <ul class="contacto__contactos__list">
+              <li class="contacto__contactos__email icon-email">contacto@pagafacil.com.pe</li>
+              <li class="contacto__contactos__phone icon-phone">080 - 351851</li>
+              <li class="contacto__contactos__email icon-email">@gmail.com</li>
+            </ul>
+          </div>
+          <div class="contacto__consultas">
+            <h2 class="titlePag contacto__consultas__title">Consultas Y Sugerencias</h2>
+            <form action="" method="POST" class="contacto__form">
+              <div class="form__item">
+                <label for="name">Nombres*</label>
+                <input type="text" name="name" placeholder="Nombres" required="required" id="name" class="form__text"/>
+              </div>
+              <div class="form__item">
+                <label for="apellidoP">Apellido Paterno*</label>
+                <input type="text" name="apellidoP" placeholder="Apellido Paterno" required="required" id="apellidoP" class="form__text"/>
+              </div>
+              <div class="form__item">
+                <label for="apellidoM">Apellido Materno*</label>
+                <input type="text" name="apellidoM" placeholder="Apellido Materno" required="required" id="apellidoM" class="form__text"/>
+              </div>
+              <div class="form__item">
+                <label for="dni">DNI*</label>
+                <input type="text" name="dni" placeholder="DNI" required="required" id="dni" class="form__text"/>
+              </div>
+              <div class="form__item">
+                <label for="call">Telefono*</label>
+                <input type="text" name="call" placeholder="Telefono" required="required" id="call" class="form__text"/>
+              </div>
+              <div class="form__item">
+                <label for="email">Correo*</label>
+                <input type="email" name="email" placeholder="Email" required="required" id="email" class="form__text"/>
+              </div>
+              <div class="form__item">
+                <label for="textarea">Mensaje*</label>
+                <textarea id="textarea" name="msg" cols="30" rows="10" placeholder="Escriba su mensaje" required="required" class="form__msg"></textarea>
+              </div>
+              <div class="form__item">
+                <input type="submit" value="Enviar" class="form__enviar"/>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div class="footer--container">
+        <ul class="f-list">
+          <li class="f-list__item"><a href="">Pagafácil</a></li>
+          <li class="f-list__item"><a href="">Servicios</a></li>
+          <li class="f-list__item"><a href="">Centros de atención</a></li>
+          <li class="f-list__item"><a href="">Contáctenos</a></li>
+          <li class="f-list__item"><a href="">2016</a></li>
+        </ul>
+        <p class="jhoelantezana"><a href="http://jhoelantezana.com/" target="_blanck">Diseño Web Jhoelantezana.com</a></p>
+      </div>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>

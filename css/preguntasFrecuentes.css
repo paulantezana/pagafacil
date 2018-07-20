@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700,500,300);
+/*:::::::::::::::::::::::::::::  End :::::::::::::::::::::::::::
+========================= jhoelantezana.com ========================
+-------------------------------------------------------------------*/
+@media screen and (min-width: 760px) {
+  .container-preguntas {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.container-preguntas__list {
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  background: #FFD300;
+  padding: 0.5rem;
+  margin: 0;
+  list-style: none;
+  line-height: 1.5rem; }
+
+@media screen and (min-width: 760px) {
+  .container-preguntas__img {
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    max-height: 220px; } }
+
+@media screen and (min-width: 1025px) {
+  .container-preguntas__img {
+    max-height: 320px; } }
+
+.container-respuestas h2 {
+  font-weight: 400;
+  font-size: 1.1rem;
+  box-shadow: 0 1px #dddddd, 0 -1px #dddddd, 0 2px #fff, 0 -2px #fff;
+  border-radius: 4px;
+  background: #eeeeee;
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 0rem; }
+
+.container-respuestas p {
+  margin-top: 0.2rem;
+  padding-left: 1rem;
+  line-height: 1.4rem; }
+  @media screen and (min-width: 1025px) {
+    .container-respuestas p {
+      margin-bottom: 2rem; } }
