@@ -19,7 +19,7 @@ a {
   color: inherit; }
 
 /*:::::::::::::::::::::::::::::  End :::::::::::::::::::::::::::
-========================= jhoelantezana.com ========================
+========================= paulantezana.com ========================
 -------------------------------------------------------------------*/
 .header--nav {
   background: #064280;
@@ -188,7 +188,7 @@ footer {
       border-left: 1px solid #053568;
       padding: 0 0.5rem; }
 
-.jhoelantezana {
+.paulantezana {
   margin: 0;
   color: #0b74e1;
   position: absolute;
@@ -196,7 +196,7 @@ footer {
   right: 0.3rem;
   font-size: 0.6rem; }
   @media screen and (max-width: 760px) {
-    .jhoelantezana {
+    .paulantezana {
       position: relative;
       text-align: center; } }
 
