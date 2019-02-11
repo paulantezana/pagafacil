@@ -6,11 +6,9 @@
     if(estado===0){
       menu.style.left="0";
       estado=1;
-      console.log(estado);
     }else if (estado===1) {
       menu.style.left="-100%";
       estado=0;
-      console.log(estado);
     }
   };
   mMenu.addEventListener('click',menuleft);
@@ -37,11 +35,9 @@
     if(estado==0){
       desple.style.maxHeight='500px';
       estado=1;
-      console.log(estado);
     }else if (estado==1) {
       desple.style.maxHeight='0';
       estado=0;
-      console.log(estado);
     }
     e.preventDefault();
   });
